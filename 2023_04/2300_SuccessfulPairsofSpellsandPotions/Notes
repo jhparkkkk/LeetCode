@@ -33,3 +33,5 @@ std::vector<long long> vect_long_long(vect_int.size());
 
 std::transform(vect_int.begin(), vect_int.end(), vect_long_long.begin(),
                [](int i) { return static_cast<long long>(i); });
+
+idea : binary search
